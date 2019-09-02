@@ -1,0 +1,35 @@
+<!--pages/investment/index.wxml-->
+<view>
+  <view class="invoice_title">提交以下信息, 我们会尽快与你联络。</view>
+  <form bindsubmit="invoice">
+        <view class="order_li">
+          <view class="address">
+            <view class="addressli">
+              <view class="addressLeft">姓名</view>
+              <view class="addressRight">
+                <input placeholder-class="input" placeholder='输入你的姓名' style='width:400rpx;' name="companyName" type="text" value='{{supplementData.invoice.companyName}}' ></input>
+              </view>
+            </view>
+            <view class="addressli">
+              <view class="addressLeft">公司名称</view>
+              <view class="addressRight">
+                <input placeholder-class="input" placeholder='输入你的公司名称' style='width:400rpx;' name="companyTax" type="text" value='{{supplementData.invoice.companyTax}}' ></input>
+              </view>
+            </view>
+            <view class="addressli">
+              <view class="addressLeft">职位</view>
+              <view class="addressRight">
+                <input placeholder-class="input" placeholder='输入你的职位' style='width:400rpx;' name="companyAddress" type="text" value='{{supplementData.invoice.companyAddress}}' ></input>
+                </view>
+            </view>
+            <view class="addressli">
+              <view class="addressLeft">手机号码</view>
+              <view class="addressRight">
+                <input placeholder-class="input" placeholder='输入你的手机号码' style='width:400rpx;' name="companyPhone" type="number" value='{{supplementData.invoice.companyPhone}}' ></input>
+              </view>
+            </view>
+          </view>
+          <button class="btn" formType="submit">提交</button>
+        </view>
+      </form>
+</view>

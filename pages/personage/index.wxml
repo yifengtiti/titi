@@ -1,0 +1,138 @@
+ <view class="archives">
+      <view class="contacts_title">
+        <text>我的1度人脉</text>
+        <text class="contacts_f">(共100个人脉)</text>
+      </view>
+      <view  class="contacts_cont">
+          <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+      </view>
+      <view  class="contacts_cont">
+          <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+
+      </view>
+      <view class='contacts_btn' bindtap="common">查 看 所 有 1 度 人 脉</view>
+  </view>
+   <view class="archives">
+      <view class="contacts_title">
+        <text>我已收藏的人脉</text>
+        <text class="contacts_f">(共100个人脉)</text>
+      </view>
+      <view  class="contacts_cont">
+          <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+      </view>
+      <view  class="contacts_cont">
+          <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">羽毛球 - 教练</view>
+          </view>
+
+      </view>
+      <view class='contacts_btn' bindtap="common">查 看 所 有 已 收 藏 的人 脉</view>
+  </view>
+  <view class="item_ul">
+    <view class="item_li">
+      <view class="item_img"><image src="/images/wallet.png"  mode='widthFix'></image></view>
+      <view class="item_text">我的钱包</view>
+      <view class="item_icon1">
+        <image src="/images/icon1.png"  mode='widthFix'></image>
+      </view>
+    </view>
+    <view class="item_li">
+      <view class="item_img"><image src="/images/complaints.png"  mode='widthFix'></image></view>
+      <view class="item_text">我的投诉</view>
+      <view class="item_icon1">
+        <image src="/images/icon1.png"  mode='widthFix'></image>
+      </view>
+    </view>
+    <view class="item_li" bindtap="investment">
+      <view class="item_img"><image src="/images/investment.png"  mode='widthFix'></image></view>
+      <view class="item_text">投资我们</view>
+      <view class="item_icon1">
+        <image src="/images/icon1.png"  mode='widthFix'></image>
+      </view>
+    </view>
+    <view class="item_li">
+      <view class="item_img"><image src="/images/agreement.png"  mode='widthFix'></image></view>
+      <view class="item_text">服务协议</view>
+      <view class="item_icon1">
+        <image src="/images/icon1.png"  mode='widthFix'></image>
+      </view>
+    </view>
+  </view>

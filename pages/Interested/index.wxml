@@ -1,0 +1,51 @@
+<!--pages/recommended/index.wxml-->
+<view>
+   <view class="query">
+      10个你可能感兴趣的人
+     
+  </view>
+  <checkbox-group bindchange="checkboxChange">
+    <view class="recommended_ul">
+      <view class="checkbox_btn">
+        <view class="checkbox_left" bindtap="checkboxBtn" data-index="1" wx:if="{{sindex==0}}">多选</view>
+        <view class="checkbox_left" bindtap="checkboxBtn" data-index="0" wx:if="{{sindex==1}}">取消</view>
+        <view class="checkbox_right" wx:if="{{sindex==0}}">换一批</view>
+      </view>
+
+      <view  class="recommended_li" wx:for="{{list}}">
+      <label class="checkbox" wx:if="{{sindex==1}}">
+        <checkbox value="{{list[index]}}" checked="{{list[index]}}"/>{{item.value}}
+      </label>
+        <view class="recommended_img">
+          <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+        </view>
+        <view class="recommended_text">
+          <view class="recommended_name">
+            <text class="recommended_title" >张培贤·</text>
+            <text  class="recommended_g">1度</text>
+            <text  class="recommended_t">(4位共同人脉)</text>
+          </view>
+          <view class="recommended_f">
+            <text>足球 - 职业运动员</text>
+            <view class="recommended_f_img">
+              <image src="/images/map.png"  mode='widthFix'></image>
+            </view> 
+            <text>深圳</text>
+          </view>
+          <view class="recommended_f">2018年的中超冠军成员</view>
+        </view>
+        <view class="recommended_btn" bindtap="recommended_btn" wx:if="{{sindex==0}}">直接加他</view>
+        <!-- <view class="recommended_btn state" hidden="true">直接加他</view> -->
+      </view>
+
+    </view>
+   
+  </checkbox-group>
+  <view class="btn" wx:if="{{sindex==1}}">
+    <checkbox-group>
+      <checkbox value="{{list[index]}}" checked="{{list[index]}}"style="margin-left:20rpx;" />全选
+       <view class="recommended_btn" bindtap="recommended_btn" style="margin-right:20rpx;" >直接加他</view>
+    </checkbox-group>
+    
+  </view>
+</view>

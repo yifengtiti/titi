@@ -1,0 +1,27 @@
+<!--pages/test/index.wxml-->
+<view class="item_ul">
+  <view class="item_li">
+    <view  class="item_left">置顶聊天</view>
+    <view class="item_right">
+      <switch  bindchange="switch1Change"/>
+    </view>
+  </view>
+  <view class="item_li">
+    <view  class="item_left">消息免打扰</view>
+    <view class="item_right">
+      <switch  bindchange="switch1Change"/>
+    </view>
+  </view>
+  <view class="item_li">
+    <view  class="item_left">黑名单</view>
+    <view class="item_right">
+      <switch  bindchange="switch2Change"/>
+    </view>
+  </view>
+  <view class="item_li" bindtap="record">
+    <view  class="item_left" >清空聊天记录</view>
+  </view>
+  <view class="item_li" bindtap="complaints">
+    <view  class="item_left" >投诉他</view>
+  </view>
+</view>

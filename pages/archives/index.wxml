@@ -1,0 +1,120 @@
+<!--pages/archives/index.wxml-->
+<view>
+    <view class="archives">
+      <view  class="inpName_img"  wx:if="{{tempFilePaths.length==1}}">
+        <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+      </view>
+       <view class="archives_name">陈大文</view>
+       <view class="archives_t">足球 - 经纪人</view>
+       <view class="archives_t items">1度人脉</view>
+       <view class="archives_g">已帮助超过20位亚洲球员到欧洲发展足球事业</view>
+       <view class="archives_btn">
+        <view class="message" bindtap="chat">发消息</view>
+        <view class="add" bindtap="test">更多</view>
+       </view>
+       <view class="archives_left" bindtap="recommended">
+          <view class="archives_img">
+             <image src="/images/recommend.png"  mode='widthFix'></image>
+          </view>
+          <view>推荐给别人</view>
+       </view>
+       <view class="archives_right" bindtap="important" data-img="{{important}}">
+          <view class="archives_img">
+             <image src="/images/{{important}}.png"  mode='widthFix'></image>
+          </view>
+          <view>重要人脉</view>
+       </view>
+    </view>
+    <view class="archives">
+      <view class="contacts_title">
+        <text>共同人脉</text>
+        <text class="contacts_f">(10个共同人脉)</text>
+      </view>
+      <view  class="contacts_cont">
+          <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">5个共同人脉</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">5个共同人脉</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">5个共同人脉</view>
+          </view>
+      </view>
+      <view  class="contacts_cont">
+          <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">5个共同人脉</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">5个共同人脉</view>
+          </view>
+           <view class="cont_li">
+            <view  class="img"  wx:if="{{tempFilePaths.length==1}}">
+              <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="cont_name">易峰</view>
+            <view class="cont_text">5个共同人脉</view>
+          </view>
+
+      </view>
+      <view class='contacts_btn' bindtap="common">查 看 所 有 共 同 人 脉</view>
+    </view>
+    <view class="item">
+      <view class="item_title">人脉指数</view>
+      <view class="item_ul">
+        <view class="item_li">
+          <view class="item_nubet">300</view>
+          <view  class="item_text">总数</view>
+        </view>
+        <view class="item_li">
+          <view class="item_nubet">300</view>
+          <view class="item_text">总数</view>
+        </view>
+        <view class="item_li">
+          <view class="item_nubet">300</view>
+          <view class="item_text">总数</view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="item_title">牵线指数</view>
+      <view class="item_ul">
+        <view class="item_li">
+          <view class="item_nubet">300</view>
+          <view  class="item_text">总数</view>
+        </view>
+        <view class="item_li">
+          <view class="item_nubet">82%</view>
+          <view class="item_text">7天成功率</view>
+        </view>
+        <view class="item_li">
+          <view class="item_nubet">75%</view>
+          <view class="item_text">本月成功率</view>
+        </view>
+      </view>
+    </view>
+    <view class="return_btn">
+      <view class="return" bindtap="return">返回首页</view>
+    </view>
+    
+</view>

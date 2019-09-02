@@ -1,0 +1,212 @@
+/* pages/registered/index.wxss */
+page{
+  background: #F0F0F0;
+}
+.inpName{
+  
+  margin: 20rpx 82rpx;
+  margin-top:30rpx;
+}
+.cont{
+  text-align: center;
+padding: 300rpx 0;
+}
+.name{
+
+color: rgba(68, 115, 197, 1);
+font-size: 40rpx;
+text-align: center;
+font-family: SourceHanSansSC-regular;
+}
+.inpName>input{
+height: 85rpx;
+line-height: 85rpx;
+border-radius: 8rpx;
+
+font-size: 24rpx;
+text-align: left;
+font-family: Microsoft Yahei;
+border: 1px solid rgba(187, 187, 187, 1);
+padding-left: 20rpx;
+background: #fff;
+}
+.textarea_s{
+color: rgba(136, 136, 136, 1);
+}
+.name_t{
+color: rgba(136, 136, 136, 1);
+font-size: 28rpx;
+font-family: SourceHanSansSC-regular;
+text-align: center;
+margin: 30rpx 0;
+}
+.pay_radio{
+  font-size: 24rpx;
+  /* padding:16rpx 0; */
+  vertical-align: top;
+  padding: 16rpx 0;
+
+}
+.pay_radio{
+  text-align: left;
+  margin-left: 80rpx;
+  margin-top:40rpx;
+}
+.pay_radio>text{
+  color:#1A71D7;
+  /* border-bottom: 1px solid blue; */
+}
+radio .wx-radio-input{
+   border-radius: 50%;/* 圆角 */
+   width: 36rpx;
+   height: 36rpx;
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before{
+   border-radius: 50%;/* 圆角 */
+   width: 36rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 36rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   line-height: 36rpx;
+   text-align: center;
+   font-size:30rpx; /* 对勾大小 30rpx */
+   color:#fff; /* 对勾颜色 白色 */
+   background: transparent;
+   transform:translate(-50%, -50%) scale(1);
+   -webkit-transform:translate(-50%, -50%) scale(1);
+}
+.btn{
+
+width: 380rpx;
+height: 60rpx;
+border-radius: 10rpx;
+background-color: rgba(68, 115, 197, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 22rpx;
+text-align: center;
+font-family: Microsoft Yahei;
+border: 1px solid rgba(68, 115, 197, 1);
+line-height: 60rpx;
+display: inline-block;
+margin-top: 55rpx;
+}
+page{
+  position: relative;
+}
+.ban{
+  background-color: #BBBBBB;
+  border: 1px solid #BBBBBB;
+}
+.pop_up{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #B0B0B0;
+  top:0;
+  z-index: 999;
+  background-color:rgba(0,0,0,0.2);
+  text-align: center;
+}
+.pop_up>.terms_cont{
+  width: 600rpx;
+  height: 1000rpx;
+  background: #fff;
+  display: inline-block;
+  border-radius: 20rpx;
+  margin-top:60rpx;
+  position: relative;
+}
+.title{
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: bolder;
+  padding: 30rpx 0;
+}
+.pop_btn{
+  margin-top:100rpx;
+text-align: center;
+position: absolute;
+bottom: 60rpx;
+width: 100%;
+}
+.pop_btn>view{
+  width: 380rpx;
+ color: #fff;
+  background: #4473C5;
+  padding:14rpx 0rpx;
+  border-radius: 14rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+}
+.right{
+  margin-right: 60rpx;
+}
+.btnTime{
+  float: left
+  }
+  .terms>view{
+  display: inline-block;
+   vertical-align: top;
+}
+.terms_cont{
+  text-align: left;
+  margin: 20rpx 0;
+  border: 2rpx solid #ccc;
+  background: #fff;
+  padding:10rpx 20rpx;
+}
+.terms_title{
+  width: 7%;
+  
+}
+.terms_text{
+   width: 92%;
+}
+.terms{
+  color: #666;
+
+  margin-top:10rpx;
+  font-size: 26rpx;
+  
+}
+.content{
+  height: 740rpx;
+  overflow: auto;
+
+}
+.inpName_img{
+  width: 200rpx;
+  height: 200rpx;
+  display: inline-block;
+  overflow: hidden;
+}
+.inpName_img>image{
+  width: 100%;
+}
+
+.btns>view{
+width: 330rpx;
+height: 60rpx;
+border-radius: 10rpx;
+background-color: rgba(68, 115, 197, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 24rpx;
+text-align: center;
+font-family: Microsoft Yahei;
+border: 1px solid rgba(68, 115, 197, 1);
+display: inline-block;
+line-height: 60rpx;
+margin: 16rpx;
+}
+.btns{
+  margin-top: 70rpx;
+}
+.itel{
+
+color: rgba(68, 115, 197, 1);
+font-size: 40rpx;
+text-align: center;
+font-family: SourceHanSansSC-regular;
+padding-top:20rpx;
+}

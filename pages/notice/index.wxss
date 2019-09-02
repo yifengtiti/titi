@@ -1,0 +1,122 @@
+/* pages/notice/index.wxss */
+.notice_ul{
+  background: #F0F0F0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+height: 120rpx;
+padding: 0 30rpx;
+}
+.notice_li{
+width: 120rpx;
+height: 60rpx;
+line-height: 60rpx;
+border-radius: 4rpx;
+background-color:#F0F0F0;
+color:#4473C5;
+font-size: 24rpx;
+text-align: center;
+font-family: Microsoft Yahei;
+border: 1px solid rgba(68, 115, 197, 1);
+}
+.selected{
+  background-color:#4473C5;
+color:#fff;
+}
+.secondary_tab{
+  margin-top:20rpx;
+}
+.secondary_tab>view{
+  display: inline-block;
+}
+.secondary_li{
+  margin: 0 30rpx;
+  text-align: center;
+  padding: 10rpx 0;
+color: rgba(16, 16, 16, 1);
+font-size: 26rpx;
+font-family: SourceHanSansSC-regular;
+border-bottom: 6rpx solid #fff;
+vertical-align: top;
+}
+.selected_s{
+
+color: rgba(68, 115, 197, 1);
+border-bottom: 6rpx solid rgba(68, 115, 197, 1);
+}
+
+.recommended_img{
+  width: 100rpx;
+height:100rpx;
+border-radius: 50%;
+text-align: center;
+overflow: hidden;
+border: 1px solid rgba(187, 187, 187, 1);
+margin-top:16rpx;
+}
+.recommended_img>image{
+  width: 100%;
+}
+.recommended_li>view{
+  display: inline-block;
+  vertical-align: top;
+}
+.recommended_f{
+
+color: rgba(136, 136, 136, 1);
+font-size: 24rpx;
+text-align: left;
+font-family: SourceHanSansSC-regular;
+margin: 6rpx 0;
+}
+.recommended_title{
+  color: rgba(16, 16, 16, 1);
+font-size: 32rpx;
+text-align: left;
+font-family: SourceHanSansSC-regular;
+}
+.recommended_g{
+
+color: #888;
+font-size: 28rpx;
+text-align: left;
+font-family: SourceHanSansSC-regular;
+}
+.recommended_t{
+  color: #888;
+font-size: 24rpx;
+text-align: left;
+font-family: SourceHanSansSC-regular;
+}
+.recommended_li{
+  padding: 20rpx 20rpx;
+  border-bottom: 1px solid #bbb;
+}
+.recommended_text{
+  margin-left: 50rpx;
+}
+.recommended_btn{
+width: 120rpx;
+height: 60rpx;
+line-height: 60rpx;
+border-radius: 4rpx;
+background-color: rgba(68, 115, 197, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 24rpx;
+text-align: center;
+font-family: Microsoft Yahei;
+border: 1px solid rgba(68, 115, 197, 1);
+margin-top:10rpx;
+}
+.recommended_f_img{
+  display: inline-block;
+  width: 26rpx;
+  padding-top:5rpx;
+  margin: 0 10rpx;
+}
+.recommended_f_img>image{
+  width: 100%;
+}
+.accept{
+  
+}

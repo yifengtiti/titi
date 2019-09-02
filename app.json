@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/index/index",
+    "pages/expansion/index",
+    "pages/personage/index",
+    
+   
+    "pages/registered/index",
+    "pages/next/index",
+    "pages/archives/index",
+    "pages/test/index",
+    "pages/archivesTest/index",
+    "pages/complaintsDetails/index",
+    "pages/chat/index",
+    "pages/recommended/index",
+    "pages/recommendedDetails/index",
+    "pages/viewMore/index",
+    "pages/charts/line/index",
+    "pages/Interested/index",
+    "pages/DirectlyRecommended/index",
+    "pages/notice/index",
+    "pages/investment/index",
+ 
+    "pages/common/index",
+    
+    
+
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#FFFFFF",
+    "navigationBarBackgroundColor": "#4473C5",
+    "navigationBarTitleText": "加入【体育人脉圈】",
+    "navigationBarTextStyle": "white",
+    "light": "center"
+    
+
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#4473C5",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/show2.png",
+        "selectedIconPath": "images/show1.png",
+        "text": "展示"
+      },
+      {
+        "pagePath": "pages/expansion/index",
+        "iconPath": "images/expansion2.png",
+        "selectedIconPath": "images/expansion1.png",
+        "text": "开拓"
+      },
+      {
+        "pagePath": "pages/personage/index",
+        "iconPath": "images/personage2.png",
+        "selectedIconPath": "images/personage1.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

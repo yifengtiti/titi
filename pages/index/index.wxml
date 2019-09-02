@@ -1,0 +1,94 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="image">
+      <image src="/images/icon7.png"  mode='widthFix'></image>
+    </view>
+    <view class="container_t">
+      <view>你认识什么人、跟什么人产生连接，</view>
+      <view>直接决定了你的价值和你能够创造的财富</view>
+    </view>
+    <view class="code">
+      <view class='edit'>
+        <view class='edit_img'>
+          <image src="/images/edit.png"  mode='widthFix'></image>
+        </view>
+        <view class='edit_text'>编辑个人信息</view>
+      </view>
+      <view class="edit_cont"> 
+        <view class="code_cont">
+          <view class="code_ul">
+            <view class="code_img">
+               <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+            </view>
+            <view class="code_text">
+              <view class="code_name">陈小明</view>
+              <view class="code_t" style="margin:5rpx 0;">足球</view>
+              <view class="code_t">体能教练</view>
+            </view>
+              
+          </view>
+          <view class="code_cons" style="margin:10rpx 0;">
+         
+           <view class="recommended_f_img">
+            <image src="/images/map.png"  mode='widthFix'></image>
+          </view>  
+            <view class="code_constext" >深圳</view>
+          </view>
+          <view class="code_cons">广州恒大职业队的体能教练</view>
+        </view>
+        <view class="code_pgm">
+          <view class="icon8_img">
+            <image src="/images/icon8.jpg"  mode='widthFix'></image>
+          </view>
+          <view class="program_img">
+            <image src="/images/code.jpg"  mode='widthFix'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+     <!-- <view class="item">
+      <view class="item_title">人脉指数</view>
+      <view class="item_ul">
+        <view class="item_li">
+          <view class="item_nubet">300</view>
+          <view  class="item_text">总数</view>
+        </view>
+        <view class="item_li center">
+          <view class="item_nubet">300</view>
+          <view class="item_text">总数</view>
+        </view>
+        <view class="item_li">
+          <view class="item_nubet">300</view>
+          <view class="item_text">总数</view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="item_title">牵线指数</view>
+      <view class="item_ul">
+        <view class="item_li">
+          <view class="item_nubet">300</view>
+          <view  class="item_text">总数</view>
+        </view>
+        <view class="item_li center">
+          <view class="item_nubet ">82%</view>
+          <view class="item_text">7天成功率</view>
+        </view>
+        <view class="item_li">
+          <view class="item_nubet">75%</view>
+          <view class="item_text">本月成功率</view>
+        </view>
+      </view>
+    </view> -->
+    <view class="perfect">
+      <view>请完善你的个人信息,否则别人无法添加你为人脉</view>
+      <view class="perfect_btn">去 完 善 个 人 信 息</view>
+    </view>
+    <view class="perfect_s">
+      <view>超过9成的新用户</view>
+      <view>在注册当天<text style="font-size:34rpx;font-weight: bolder;">邀请24位好友</text>进入【体育人脉圈】。</view>
+      <view>注册后3天内成功邀请9位或以上的好友,</view>
+      <view>系统会每天为你额外推送10位 [你可能感兴趣的人]。</view>
+    </view>
+    <!-- <button open-type='share'>分享</button> -->
+</view>

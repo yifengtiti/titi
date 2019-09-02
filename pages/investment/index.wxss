@@ -1,0 +1,91 @@
+/* pages/investment/index.wxss */
+order_li{
+  padding:50rpx 20rpx;
+  background: #e5e5e5;
+  position: relative;
+  padding-top:20rpx;
+  margin-bottom: 70rpx;
+  
+}
+.order_title>view{
+  display: inline-block;
+}
+.order_time{
+  padding:20rpx 30rpx;
+  border:4rpx solid #000;
+}
+.order_examine{
+  float: right;
+  color: #666;
+  border-bottom: 2rpx solid #666;
+  font-size: 28rpx;
+}
+.cont_ll{
+  padding: 4rpx 0;
+  
+}
+.addressli{
+  border-bottom: 2rpx solid #BBB;
+  padding: 20rpx 0;
+  font-size:28rpx; 
+  margin:  0 30rpx;
+}
+.addressli>view{
+  display: inline-block;
+    vertical-align: top;
+}.addressLeft{
+  width: 190rpx;
+  padding-left: 20rpx;
+color: rgba(16, 16, 16, 1);
+
+text-align: left;
+font-family: SourceHanSansSC-regular;
+
+}
+
+.addressRight>input{
+font-size: 24rpx !important;
+}
+.addressLeft>input{
+  margin-top:10rpx;
+}
+.picker_t{
+  font-size: 28rpx;
+  color:#666;
+}
+.input{
+  font-size: 28rpx;
+}
+.address{
+  margin-top:20rpx;
+}
+page{
+background-color: rgba(240, 240, 240, 1);
+position: relative;
+}
+.btn{
+
+width: 550rpx;
+height: 94rpx;
+line-height: 94rpx;
+border-radius: 10rpx;
+background-color: rgba(68, 115, 197, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 28rpx;
+text-align: center;
+font-family: Microsoft Yahei;
+border: 1px solid rgba(68, 115, 197, 1);
+position: fixed;
+left: 110rpx;
+bottom: 100rpx;
+}
+.invoice_title{
+width: 430rpx;
+height: 40rpx;
+line-height: 40rpx;
+color: rgba(16, 16, 16, 1);
+font-size: 26rpx;
+text-align: left;
+font-family: SourceHanSansSC-regular;
+padding:20rpx  30rpx;
+}

@@ -1,0 +1,123 @@
+/* pages/complaintsDetails/index.wxss */
+page{
+
+background-color: rgba(240, 240, 240, 1);
+position: relative;
+}
+.title{
+color: rgba(136, 136, 136, 1);
+font-size: 28rpx;
+text-align: left;
+font-family: SourceHanSansSC-regular;
+padding: 20rpx 30rpx;
+}
+.complaintsDetails_li{
+padding: 30rpx;
+background: #fff;
+overflow: hidden;
+
+border-bottom: 1px solid rgba(229, 229, 229, 1);
+}
+.complaintsDetails_ion{
+  float: right;
+color: rgba(187, 187, 187, 1);
+font-size: 36rpx;
+width: 10%;
+text-align: right;
+}
+.complaintsDetails_text{
+  float: left;
+  width: 90%;
+color: rgba(16, 16, 16, 1);
+font-size: 28rpx;
+text-align: left;
+font-family: SourceHanSansSC-regular;
+}
+.btn{
+  position: fixed;
+  bottom: 80rpx;
+  left: 0;
+  width: 100%;
+  text-align: center;
+color: rgba(26, 113, 215, 1);
+font-size: 28rpx;
+font-family: SourceHanSansSC-regular;
+}
+
+.pop_up{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #B0B0B0;
+  top:0;
+  z-index: 999;
+  background-color:rgba(0,0,0,0.2);
+  text-align: center;
+}
+.pop_up>.terms_cont{
+  width: 600rpx;
+  height: 560rpx;
+  background: #fff;
+  display: inline-block;
+  border-radius: 20rpx;
+  margin-top:200rpx;
+  position: relative;
+}
+.stitle{
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: bolder;
+  padding: 30rpx 0;
+}
+.pop_btn{
+  margin-top:100rpx;
+text-align: center;
+position: absolute;
+bottom: 60rpx;
+width: 100%;
+}
+.pop_btn>view{
+  width: 380rpx;
+ color: #fff;
+  background: #4473C5;
+  padding:14rpx 0rpx;
+  border-radius: 14rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+}
+.right{
+  margin-right: 60rpx;
+}
+.btnTime{
+  float: left
+  }
+  .terms>view{
+  display: inline-block;
+   vertical-align: top;
+}
+.terms_cont{
+  text-align: left;
+  margin: 20rpx 0;
+  border: 2rpx solid #ccc;
+  background: #fff;
+  padding:10rpx 20rpx;
+}
+.terms_title{
+  width: 7%;
+  
+}
+.terms_text{
+   width: 92%;
+}
+.terms{
+  color: #666;
+
+  margin-top:10rpx;
+  font-size: 28rpx;
+  
+}
+.content{
+  height: 320rpx;
+  overflow: auto;
+
+}

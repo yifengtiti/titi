@@ -1,0 +1,39 @@
+<view>
+  <view class="notice_ul">
+    <view class="notice_li selected">人脉通知</view>
+    <view class="notice_li">聊天通知</view>
+    <view class="notice_li">礼物通知</view>
+    <view class="notice_li">推荐通知</view>
+  </view>
+  <view class="secondary_tab">
+    <view class="secondary_li selected_s">我收到的</view>
+    <view class="secondary_li">我发出的</view>
+    <view class="secondary_li">推荐给我</view>
+  </view>
+  <view class="noticeCont_Ul">
+    <view  class="recommended_li">
+      <view class="recommended_img">
+        <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+      </view>
+      <view class="recommended_text">
+        <view class="recommended_name">
+          <text class="recommended_title" >张培贤·</text>
+          <text  class="recommended_g">1度</text>
+          <text  class="recommended_t">(4位共同人脉)</text>
+        </view>
+        <view class="recommended_f">
+          <text>足球 - 职业运动员</text>
+           <view class="recommended_f_img">
+            <image src="/images/map.png"  mode='widthFix'></image>
+          </view> 
+          <text>深圳</text>
+        </view>
+        <view class="recommended_f">2018年的中超冠军成员</view>
+        <view class="notice_btn">
+          <view class="accept">接受</view>
+          <view class="accept">拒绝</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

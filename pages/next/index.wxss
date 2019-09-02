@@ -1,0 +1,113 @@
+/* pages/next/index.wxss */
+page{
+  background: #F0F0F0;
+}
+.cont{
+  margin-top:40rpx;
+  padding: 0 30rpx;
+}
+
+.information_title{
+color: rgba(68, 115, 197, 1);
+font-size: 40rpx;
+text-align: center;
+font-family: SourceHanSansSC-regular;
+}
+.information_li{
+  padding: 24rpx 0;
+border-bottom: 1px solid #888;
+}
+.information_li>picker{
+  display: inline-block;
+  height: 48rpx;
+  vertical-align: bottom;
+width: 70%;
+}
+.information_li>input{
+  display: inline-block;
+  height: 48rpx;
+  vertical-align: bottom;
+width: 70%;
+}
+.information_li>label{
+    height: 48rpx;
+
+width: 25%;
+color: rgba(16, 16, 16, 1);
+font-size: 32rpx;
+text-align: left;
+font-family: SourceHanSansSC-regular;
+  display: inline-block;
+}
+.textarea{
+  width: 70%;
+  display: inline-block;
+  height: 160rpx;
+  vertical-align: top;
+  font-size: 32rpx;
+  padding: 0;
+}
+.textarea_s{
+  vertical-align: top;
+}
+.textarea_li{
+  padding-bottom: 0;
+}
+.textarea_li>label{
+  vertical-align: top;
+  display: inline-block;
+  padding-top:5rpx;
+}
+.phone{
+
+width: 188rpx;
+height: 60rpx;
+border-radius: 6rpx;
+background-color: rgba(9, 187, 7, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 20rpx;
+text-align: center;
+font-family: Roboto;
+line-height: 60rpx;
+float: right;
+padding: 0;
+}
+.buttonget{
+
+width: 188rpx;
+height: 60rpx;
+border-radius: 6rpx;
+background-color: rgba(68, 115, 197, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 20rpx;
+text-align: center;
+font-family: Microsoft Yahei;
+line-height: 60rpx;
+float: right;
+padding: 0;
+}
+.sbtn{
+  text-align: center;
+  margin-top:40rpx;
+}
+.sbtn>view{
+
+width: 550rpx;
+height: 94rpx;
+border-radius: 10rpx;
+line-height: 94rpx;
+background-color: rgba(68, 115, 197, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 28rpx;
+text-align: center;
+font-family: Microsoft Yahei;
+border: 1px solid rgba(68, 115, 197, 1);
+display: inline-block;
+}
+.ban>view{
+    background-color: #BBBBBB;
+  border: 1px solid #BBBBBB;
+}
+.picker_text{
+  color: #888;
+}

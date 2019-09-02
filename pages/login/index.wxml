@@ -1,0 +1,8 @@
+<view class="cont">
+  <view class="title">欢迎来到【体育人脉圈】</view>
+  <view class="btn">
+    <view bindtap="login">登录</view>
+    <button  class='bottom' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">注册</button>
+    
+  </view>
+</view>

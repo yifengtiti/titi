@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<view class="newContainer">
+  <ff-canvas id="kChart" canvas-id="line" opts="{{ opts }}"></ff-canvas>
+</view>
+<view class="recommended_ul">
+  
+    <view  class="recommended_li">
+      <view class="recommended_img">
+        <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+      </view>
+      <view class="recommended_text">
+        <view class="recommended_name">
+          <text class="recommended_title" >张培贤·</text>
+          <text  class="recommended_g">1度</text>
+          <text  class="recommended_t">(4位共同人脉)</text>
+        </view>
+        <view class="recommended_f">
+          <text>足球 - 职业运动员</text>
+           <view class="recommended_f_img">
+            <image src="/images/map.png"  mode='widthFix'></image>
+          </view> 
+          <text>深圳</text>
+        </view>
+        <view class="recommended_f">2018年的中超冠军成员</view>
+      </view>
+        <view class="days_right">
+        <view class="days">3天前</view>
+        <view class="recommended_btn">直接加他</view>
+      </view>
+    </view>
+    <view  class="recommended_li">
+      <view class="recommended_img">
+        <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+      </view>
+      <view class="recommended_text">
+        <view class="recommended_name">
+          <text class="recommended_title" >张培贤·</text>
+          <text  class="recommended_g">1度</text>
+          <text  class="recommended_t">(4位共同人脉)</text>
+        </view>
+        <view class="recommended_f">
+          <text>足球 - 职业运动员</text>
+           <view class="recommended_f_img">
+            <image src="/images/map.png"  mode='widthFix'></image>
+          </view> 
+          <text>深圳</text>
+        </view>
+        <view class="recommended_f">2018年的中超冠军成员</view>
+      </view>
+      <view class="days_right">
+        <view class="days">3天前</view>
+        <view class="recommended_btn">直接加他</view>
+      </view>
+    </view>
+  </view>

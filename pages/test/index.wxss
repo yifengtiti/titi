@@ -1,0 +1,19 @@
+/* pages/test/index.wxss */
+.item_li{
+  padding: 25rpx 0;
+  padding-right: 30rpx;
+border-bottom: 1px solid rgba(229, 229, 229, 1);
+overflow: hidden;
+margin-left: 40rpx; 
+}
+.item_right{
+  float: right;
+  padding-top:10rpx;
+}
+.item_left{
+  float: left;
+  line-height: 70rpx;
+}
+switch{
+  zoom: 0.9;
+}

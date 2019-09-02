@@ -1,0 +1,30 @@
+
+<view class="cont_ul">
+  <view class="cont_text">将张培贤推荐给陈大文</view>
+  <view class="recommendedDetails_cont">
+    <view class="cont_t">
+      <view>我</view>
+      <view class="cont_img">
+        <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+  <view class="left_img">
+    <image src="/images/icon9.png"  mode='widthFix'></image>
+  </view>
+   <view class="right_img">
+    <image src="/images/icon2.png"  mode='widthFix'></image>
+  </view>
+  <view class="recommendedDetails_cont item">
+    <view class="cont_t">
+        <view class="cont_img">
+          <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+        </view>
+      </view>
+      <view class="cont_t left">
+        <view class="cont_img">
+          <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+        </view>
+      </view>
+  </view>
+</view>

@@ -1,0 +1,93 @@
+/* pages/recommendedDetails/index.wxss */
+page{
+  background: #F0F0F0;
+}
+.cont_img{
+
+width: 200rpx;
+height: 200rpx;
+text-align: center;
+border: 1px solid rgba(187, 187, 187, 1);
+border-radius: 50%;
+overflow: hidden;
+display: inline-block;
+}
+.cont_img>image{
+  width: 100%;
+}
+.cont_t{
+  text-align: center;
+}
+.item>view{
+  display: inline-block;
+}
+.cont_ul{
+  padding: 0 69rpx;
+  position: relative;
+}
+.left{
+  float: right;
+}
+.item{
+  margin-top:80rpx;
+}
+.recommendedDetails_cont{
+  margin-top:100rpx;
+}
+.cont_text{
+padding-top:30rpx;
+color: rgba(16, 16, 16, 1);
+font-size: 30rpx;
+text-align: center;
+font-family: SourceHanSansSC-regular;
+}
+.left_img{
+  position: absolute;
+  top:354rpx;
+  left: 150rpx;
+  width: 230rpx;
+}
+.left_img>image{
+  width: 100%;
+}
+.right_img{
+   position: absolute;
+  top:354rpx;
+  right: 150rpx;
+  width: 230rpx;
+}
+.right_img>image{
+  width: 100%;
+}
+page{
+  position: relative;
+}
+.btn{
+position: fixed;
+bottom: 60rpx;
+left: 0;
+width: 100%;
+text-align: center;
+}
+.gift_btn{
+width: 330rpx;
+height: 60rpx;
+line-height: 60rpx;
+border-radius: 10rpx;
+background-color: rgba(68, 115, 197, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 24rpx;
+text-align: center;
+font-family: Microsoft Yahei;
+border: 1px solid rgba(68, 115, 197, 1);
+display: inline-block;
+}
+.direct{
+ position: absolute;
+ right: 20rpx;
+ top:15rpx;
+color: rgba(26, 113, 215, 1);
+font-size: 24rpx;
+text-align: left;
+font-family: SourceHanSansSC-regular;
+}

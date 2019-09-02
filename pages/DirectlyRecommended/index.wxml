@@ -1,0 +1,36 @@
+
+<view class="cont_ul">
+  <view class="cont_text">将张培贤推荐给陈大文</view>
+  <view class="recommendedDetails_cont">
+    <view class="cont_t">
+     
+      <view class="cont_img">
+        <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+      </view>
+       <view>陈大文</view>
+       <view>足球 - 经纪人</view>
+    </view>
+  </view>
+  <!-- <view class="left_img">
+    <image src="/images/icon9.png"  mode='widthFix'></image>
+  </view>
+   <view class="right_img">
+    <image src="/images/icon2.png"  mode='widthFix'></image>
+  </view>
+  <view class="recommendedDetails_cont item">
+    <view class="cont_t">
+        <view class="cont_img">
+          <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+        </view>
+      </view>
+      <view class="cont_t left">
+        <view class="cont_img">
+          <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+        </view>
+      </view>
+  </view> -->
+</view>
+<view class="btn">
+  <view class="gift_btn">送 礼 给 陈 大 文</view>
+  <view class="direct">直接推荐></view>
+</view>

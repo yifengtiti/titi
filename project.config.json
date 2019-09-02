@@ -1,0 +1,182 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.0",
+	"appid": "wx37344c1cb0f8ccc2",
+	"projectname": "miniprogram-6",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 17,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "state=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/registered/index",
+					"pathName": "pages/registered/index",
+					"query": "state=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/next/index",
+					"pathName": "pages/next/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/archives/index",
+					"pathName": "pages/archives/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/test/index",
+					"pathName": "pages/test/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/archivesTest/index",
+					"pathName": "pages/archivesTest/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/complaintsDetails/index",
+					"pathName": "pages/complaintsDetails/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/chat/index",
+					"pathName": "pages/chat/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/recommended/index",
+					"pathName": "pages/recommended/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/common/index",
+					"pathName": "pages/common/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/recommendedDetails/index",
+					"pathName": "pages/recommendedDetails/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/expansion/index",
+					"pathName": "pages/expansion/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/charts/line/index",
+					"pathName": "pages/charts/line/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/Interested/index",
+					"pathName": "pages/Interested/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/DirectlyRecommended/index",
+					"pathName": "pages/DirectlyRecommended/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/notice/index",
+					"pathName": "pages/notice/index",
+					"query": "noticeState=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personage/index",
+					"pathName": "pages/personage/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/investment/index",
+					"pathName": "pages/investment/index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

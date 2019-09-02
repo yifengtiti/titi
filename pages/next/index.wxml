@@ -1,0 +1,57 @@
+<!--pages/next/index.wxml-->
+<view class="cont">
+  <view  class="information_title">个人信息</view>
+  <view class="information_ul">
+    <view class="information_li">
+        <label>运动项目</label>
+        <input placeholder='输入你的运动项目'  name="sports" type="text" bindinput="sports" ></input>
+        
+      </view>
+    <view class="information_li">
+      <label>你的角色</label>
+      <input placeholder='输入你的角色'  name="role" type="text" bindinput="role" ></input>
+       
+    </view>
+    <view class="information_li">
+      <label>手机号</label>
+      <input placeholder='输入你的手机号码'  name="phone" type="number" bindinput="phone" style="width:45%"></input>
+      <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class="phone">获取手机号</button>
+    </view>
+    <view class="information_li">
+      <label>验证码</label>
+      <input placeholder='输入验证码'  name="sVerification" type="text" bindinput="sVerification" style="width:45%"></input>
+      <button class="buttonget" disabled="{{disabled}}" data-id="2" bindtap="getBtn" >{{time}}</button>
+    </view>
+    <view class="information_li">
+      <label>性别</label>
+      <picker  bindchange="gender" range="{{cityList}}" >
+        <view class="picker picker_text" wx:if="{{gender==''}}">选择你的性别</view>
+        <view class="picker " wx:if="{{gender!=''}}"> {{gender}}</view>
+      </picker>
+    </view>
+     <view class="information_li">
+      <label>常驻城市</label>
+      <picker mode="region" bindchange="city" value="{{city}}" custom-item="{{customItem}}">
+        <view class="picker" wx:if="{{city!=''}}"> {{city[0]}}，{{city[1]}}，{{city[2]}}</view>
+        <view class="picker picker_text" wx:if="{{city==''}}">选择你的常驻城市</view>
+      </picker>
+    </view>
+    <view class="information_li">
+      <label>QQ号</label>
+      <input placeholder='(选填) 以后可以使用QQ号登录'  name="sQqNumber" type="text" bindinput="sQqNumber" ></input>
+    </view>
+   
+   
+    <view class="information_li textarea_li">
+      <label>自我介绍</label>
+       <textarea placeholder="(选填) 让别人快速了解你" name="textarea" class="textarea"bindinput="introduce" placeholder-class="textarea_s"/>
+    </view>
+  </view>
+</view>
+<view class="sbtn" bindtap="sbtn"  wx:if="{{sports!=''&&role!=''&&phone!=''&&sVerification!=''&&city!=''&&gender!=''}}">
+  <view>立 马 去 扩 大 你 的 人 脉</view> 
+</view>
+<view class="sbtn ban" wx:if="{{sports==''||role==''||phone==''||sVerification==''||city==''||gender==''}}">
+  <view>立 马 去 扩 大 你 的 人 脉</view> 
+</view>
+<!-- <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取微信手机号</button> -->

@@ -1,0 +1,55 @@
+<!--pages/recommended/index.wxml-->
+<view>
+  <view class="query">
+  <view  class="query_img">
+      <image src='/images/query.png'  mode='widthFix'></image>
+     </view>
+     <input placeholder='从我的 [人脉圈] 中搜索'  name="query" type="text" bindinput="query" ></input>
+     
+  </view>
+  <view class="recommended_ul">
+  
+    <view  class="recommended_li">
+      <view class="recommended_img">
+        <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+      </view>
+      <view class="recommended_text">
+        <view class="recommended_name">
+          <text class="recommended_title" >张培贤·</text>
+          <text  class="recommended_g">1度</text>
+          <text  class="recommended_t">(4位共同人脉)</text>
+        </view>
+        <view class="recommended_f">
+          <text>足球 - 职业运动员</text>
+           <view class="recommended_f_img">
+            <image src="/images/map.png"  mode='widthFix'></image>
+          </view> 
+          <text>深圳</text>
+        </view>
+        <view class="recommended_f">2018年的中超冠军成员</view>
+      </view>
+      <view class="recommended_btn" bindtap="recommended_btn">推荐给他</view>
+    </view>
+    <view  class="recommended_li">
+      <view class="recommended_img">
+        <image src="{{tempFilePaths[0]}}"  mode='widthFix'></image>
+      </view>
+      <view class="recommended_text">
+        <view class="recommended_name">
+          <text class="recommended_title" >张培贤·</text>
+          <text  class="recommended_g">1度</text>
+          <text  class="recommended_t">(4位共同人脉)</text>
+        </view>
+        <view class="recommended_f">
+          <text>足球 - 职业运动员</text>
+           <view class="recommended_f_img">
+            <image src="/images/map.png"  mode='widthFix'></image>
+          </view> 
+          <text>深圳</text>
+        </view>
+        <view class="recommended_f">2018年的中超冠军成员</view>
+      </view>
+      <view class="recommended_btn state">推荐给他</view>
+    </view>
+  </view>
+</view>

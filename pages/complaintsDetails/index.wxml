@@ -1,0 +1,37 @@
+<view>
+  <view class="title">你可以：</view>
+  <view class="complaintsDetails_ul">
+    <view class="complaintsDetails_li">
+      <view class="complaintsDetails_text">提交给 【体育人脉圈】团队审核</view>
+      <view class="complaintsDetails_ion">></view>
+    </view>
+  </view>
+  <view class="complaintsDetails_ul">
+    <view class="complaintsDetails_li">
+      <view class="complaintsDetails_text" bindchange="switch2Change">把此人拉入 [黑名单] (双方不能收发消息及不能使用
+任何 [推荐] 功能)</view>
+      <view class="complaintsDetails_ion">></view>
+    </view>
+  </view>
+</view>
+<view class="btn" bindtap="complaintsDetails">
+  <view>投诉须知</view>
+
+</view>
+
+<view class="pop_up" hidden="{{state}}">
+    <view class="terms_cont">
+     <view class="stitle">【体育人脉圈】服务协议</view>
+        <view class="content">
+         
+          <view class="terms">
+            <view class="terms_text">你应该保证你的投诉行为基于善意, 并代表你本人真实意思。【体育人脉圈】作为中立的平台服务者, 收到你的投诉
+后, 会尽快按照相关法律法规的规定独立判断并进行处理。体育人脉圈】将会采取合理的措施保护你的个人信息;除法律法规规定的情形外, 未经用户许可【体育人脉圈】不会向第三方公开、透露你的个人信息。</view>
+          </view>
+        </view>
+        <view class="pop_btn" bindtap="popBtn" >
+          <view>已阅读并同意</view>
+        </view>
+    </view>
+    
+</view>
